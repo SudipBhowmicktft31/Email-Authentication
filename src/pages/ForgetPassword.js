@@ -27,8 +27,8 @@ const ForgetPassword = () => {
   return (
     <div className={styles.container}>
       <div className={styles.outer_box}>
+        <div className={styles.title}>Password Assistance</div>
         <div className={styles.forgetPassword}>
-          <div className={styles.title}>Password Assistance</div>
           <p>Enter the email address associated with your account.</p>
           <form className={styles.form} onSubmit={formSubmitHandler}>
             <label>Email</label>

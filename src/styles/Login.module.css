@@ -48,6 +48,7 @@
 }
 .emailClass label {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
   padding: 5px;
   margin-bottom: 5px;
   font-weight: bold;
@@ -92,6 +93,8 @@
   padding: 5px;
   margin-bottom: 5px;
   font-weight: bold;
+  font-size: 15px;
+
 }
 .password {
   margin: 5px;
