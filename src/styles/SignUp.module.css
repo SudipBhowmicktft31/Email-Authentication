@@ -1,0 +1,138 @@
+.container {
+  border: 1px solid rgb(171, 171, 171);
+  border-radius: 8px;
+  width: 350px;
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  padding: 10px;
+}
+.selector {
+  display: flex;
+  justify-content: space-around;
+}
+.selector div {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.signup {
+  border-bottom: 4px solid rgb(39, 104, 244);
+  color: rgb(39, 104, 244);
+}
+.login {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.login:hover {
+  color: rgb(39, 104, 244);
+  transition: color 0.35s;
+}
+.form {
+  border: 1px solid rgb(171, 171, 171);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  line-height: 0;
+}
+.emailClass {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.emailClass label {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.email {
+  margin: 5px;
+  padding: 5px;
+  height: 30px;
+  border: 1px solid rgb(171, 171, 171);
+  border-radius: 3px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+}
+.email:focus,
+.email:active {
+  outline: none;
+  border: 1px solid rgb(39, 104, 244);
+  transition: border, box-shadow 0.25s;
+  box-shadow: 0px 0px 3px 1px rgb(39, 104, 244);
+}
+.passwordClass {
+  display: flex;
+  flex-direction: column;
+}
+.passwordClass label {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.password {
+  margin: 5px;
+  padding: 5px;
+  height: 30px;
+  border: 1px solid rgb(171, 171, 171);
+  border-radius: 5px;
+}
+.password:focus,
+.password:active {
+  outline: none;
+  border: 1px solid rgb(39, 104, 244);
+  transition: border, box-shadow 0.25s;
+  box-shadow: 0px 0px 3px 1px rgb(39, 104, 244);
+}
+.action {
+  width: 100%;
+  text-align: center;
+}
+.button {
+  background-color: rgb(39, 104, 244);
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 130px;
+  margin: 10px;
+  color: aliceblue;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: rgb(80, 128, 232);
+}
+.account {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logIn {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 5px;
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(80, 133, 246);
+}
+.logIn:hover {
+  color: rgb(39, 104, 244);
+  transition: color 0.35s;
+  text-decoration: underline;
+}
+.errortext {
+  color: red;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  margin-left: 8px;
+  line-height: 1;
+}
